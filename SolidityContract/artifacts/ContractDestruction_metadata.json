@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "instatedSelfDestruction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/selfdestruct.sol": "ContractDestruction"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/selfdestruct.sol": {
+			"keccak256": "0xbda439b1d688c99c71c848974c8d6810de24a4080f326fe4c4176209efbb670e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96f5856460b5509be65293735b206721646281df3aa1b9176fadefabb550b16c",
+				"dweb:/ipfs/QmUiWSWo1BZ3iQHEfFaYqcuc9MwZBfLN6g99yTPbBPPCEo"
+			]
+		}
+	},
+	"version": 1
+}

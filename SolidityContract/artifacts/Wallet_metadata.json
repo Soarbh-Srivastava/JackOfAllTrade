@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numOfDeposit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numOfWithdrawal",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numOfDeposit",
+						"type": "uint256"
+					}
+				],
+				"name": "getDeposit",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "ammount",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Wallet.Transcation",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/egSmartWallet.sol": "Wallet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/egSmartWallet.sol": {
+			"keccak256": "0xe467b2298e77830dc57ac569339d5a4bccc4819c4ce2db892188113ff655119f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2db55cec166d7a9d20f2ba217bcbed241d6d17726c140ea2d1c7889ac9b2b1a",
+				"dweb:/ipfs/QmVDvFAmxAprqsm9Sph5PMjNfj8DVctNcQ8qAssXj3dJmS"
+			]
+		}
+	},
+	"version": 1
+}
